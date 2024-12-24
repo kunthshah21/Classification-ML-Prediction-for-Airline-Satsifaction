@@ -2,7 +2,7 @@
 
 This project aimed to use multiple supervised and unsupervised machine learning algorithms to find the best-performing model for this dataset. This involved thorough EDA with the help of box-plot graphs, removing null values, correlation matrices, univariate-multivariate analysis, and target analysis. Dummy encoding was performed for the categorical variables, and label encoding was applied to the target variable.
 
-This process allowed me to build a simpler model, reducing the feature count from 23 to 12 (including dummy encoding).
+This process allowed me to build a simpler model, reducing the feature count from 23 to 12 (including dummy encoding). The data was also scalled using standardScaller and the models were tested and iterated with proper hyper-parameter tuning with a 5-fold cross validation.
 
 ---
 
